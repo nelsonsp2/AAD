@@ -1,0 +1,21 @@
+name: AAD
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=3.8
+- numpy
+- jupyter
+- notebook
+- matplotlib
+- scikit-learn
+- scipy
+- pandas
+- pillow
+- seaborn
+- h5py
+- scikit-image
+- statsmodels
+- graphviz
+- hdf5
+- jupyter_contrib_nbextensions

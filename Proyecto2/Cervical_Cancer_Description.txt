@@ -1,0 +1,20 @@
+The cervical cancer dataset contains indicators and risk factors for predicting whether a woman will get cervical cancer. The features include demographic data (such as age), lifestyle, and medical history. The data can be downloaded from the UCI Machine Learning repository and is described by Fernandes, Cardoso, and Fernandes (2017)15.
+
+The subset of data features used in the book's examples are:
+
+Age in years
+Number of sexual partners
+First sexual intercourse (age in years)
+Number of pregnancies
+Smoking yes or no
+Smoking (in years)
+Hormonal contraceptives yes or no
+Hormonal contraceptives (in years)
+Intrauterine device yes or no (IUD)
+Number of years with an intrauterine device (IUD)
+Has patient ever had a sexually transmitted disease (STD) yes or no
+Number of STD diagnoses
+Time since first STD diagnosis
+Time since last STD diagnosis
+The biopsy results "Healthy" or "Cancer". Target outcome.
+The biopsy serves as the gold standard for diagnosing cervical cancer. For the examples in this book, the biopsy outcome was used as the target. Missing values for each column were imputed by the mode (most frequent value), which is probably a bad solution, since the true answer could be correlated with the probability that a value is missing. There is probably a bias because the questions are of a very private nature. But this is not a book about missing data imputation, so the mode imputation will have to suffice for the examples.
